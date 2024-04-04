@@ -73,10 +73,10 @@ body{
   padding-top: 15px;
 }
 .main { 
-  grid-area: main;
   padding-top: 40px;
   padding-bottom: 40px;
   width: auto;
+  position: relative;
 }
 
 .navbar{
@@ -119,6 +119,7 @@ h3 {
   top: 50%;
   width: 100%;
   text-align: center;
+  transform: translateY(-50%);
 }
 
 @keyframes fadeIn {
